@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>影片搜索 - 亚洲经典电影-经典影片合集-高清视频在线观看</title>
+  <meta name="description" content="亚洲经典电影搜索页面，支持按片名、年份、地区和类型快速查找影片。">
+  <meta name="keywords" content="亚洲经典电影,经典影片合集,高清视频在线观看,亚洲电影,经典电影,电影合集,影片搜索,电影搜索">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-logo" href="index.html" aria-label="亚洲经典电影">亚洲经典电影</a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="ranking.html">热播榜</a>
+        <a href="search.html">搜索</a>
+          <a href="categories/classic-selection.html">经典精选</a>
+          <a href="categories/asia-light.html">亚洲光影</a>
+          <a href="categories/popular-picks.html">口碑佳片</a>
+          <a href="categories/new-years.html">年代佳作</a>
+          <a href="categories/drama-world.html">剧情天地</a>
+          <a href="categories/comedy-time.html">喜剧时刻</a>
+      </nav>
+      <button class="mobile-menu-button" type="button" aria-label="打开菜单">菜单</button>
+    </div>
+    <nav class="mobile-nav" aria-label="移动导航">
+      <a href="index.html">首页</a>
+      <a href="categories.html">分类</a>
+      <a href="ranking.html">热播榜</a>
+      <a href="search.html">搜索</a>
+    </nav>
+  </header>
+  <main>
+    <section class="page-hero page-hero--small">
+      <div>
+        <p class="eyebrow">Search</p>
+        <h1>影片搜索</h1>
+        <p>输入片名、年份、地区或类型，快速找到想看的影片。</p>
+        <form class="site-search" role="search">
+          <input type="search" id="globalSearchInput" placeholder="搜索影片名称、地区、年份、类型" aria-label="搜索影片">
+          <button type="submit">搜索</button>
+        </form>
+      </div>
+    </section>
+    <section class="site-section">
+      <div id="searchResults" class="movie-grid"></div>
+      <div id="searchEmpty" class="empty-state" hidden>暂无匹配影片</div>
+    </section>
+    <section class="site-section" id="searchHotSection">
+      
+      <div class="section-title-row">
+        <h2>热门推荐</h2>
+        <a class="section-more" href="./ranking.html">查看热播榜</a>
+      </div>
+      <div class="movie-grid">
+
+        <article class="movie-card movie-card--normal" data-title="反逆儿" data-year="2028" data-region="日本" data-genre="家庭 / 悬疑 / 剧情">
+          <a class="movie-card__poster" href="./movies/movie-0816.html">
+            <img src="./66.jpg" alt="反逆儿">
+            <span class="movie-card__play">播放</span>
+          </a>
+          <div class="movie-card__body">
+            <div class="movie-card__meta"><span>日本</span><span>2028</span></div>
+            <h3><a href="./movies/movie-0816.html">反逆儿</a></h3>
+            <p>父亲是国民级“理想家长”畅销书作家，而四个孩子正秘密计划让他“意外死亡”。</p>
+          </div>
+        </article>
+
+        <article class="movie-card movie-card--normal" data-title="我们在南太平洋上的岛屿" data-year="2028" data-region="中国大陆" data-genre="剧情 / 爱情 / 年代">
+          <a class="movie-card__poster" href="./movies/movie-1756.html">
+            <img src="./106.jpg" alt="我们在南太平洋上的岛屿">
+            <span class="movie-card__play">播放</span>
+          </a>
+          <div class="movie-card__body">
+            <div class="movie-card__meta"><span>中国大陆</span><span>2028</span></div>
+            <h3><a href="./movies/movie-1756.html">我们在南太平洋上的岛屿</a></h3>
+            <p>从上世纪60年代至今，三代华人女性在法属波利尼西亚的一座小岛上，用贝壳、珍珠和血泪建立起了属于她们的家园帝国。</p>
+          </div>
+        </article>
+
+        <article class="movie-card movie-card--normal" data-title="暴雨屋" data-year="2028" data-region="日本 / 韩国" data-genre="恐怖 / 悬疑">
+          <a class="movie-card__poster" href="./movies/movie-1937.html">
+            <img src="./137.jpg" alt="暴雨屋">
+            <span class="movie-card__play">播放</span>
+          </a>
+          <div class="movie-card__body">
+            <div class="movie-card__meta"><span>日本 / 韩国</span><span>2028</span></div>
+            <h3><a href="./movies/movie-1937.html">暴雨屋</a></h3>
+            <p>七个人在一栋暴雨围困的豪宅里醒来，发现要想离开，就必须找出谁才是最虚伪的人。</p>
+          </div>
+        </article>
+
+        <article class="movie-card movie-card--normal" data-title="落日浴血记" data-year="2028" data-region="中国" data-genre="动作, 武侠, 西部">
+          <a class="movie-card__poster" href="./movies/movie-1631.html">
+            <img src="./131.jpg" alt="落日浴血记">
+            <span class="movie-card__play">播放</span>
+          </a>
+          <div class="movie-card__body">
+            <div class="movie-card__meta"><span>中国</span><span>2028</span></div>
+            <h3><a href="./movies/movie-1631.html">落日浴血记</a></h3>
+            <p>民国西北荒漠，一名哑巴刀客为救仇人之女，与一整个骑兵连的枪手展开落日对决。</p>
+          </div>
+        </article>
+
+        <article class="movie-card movie-card--normal" data-title="冰冻星球 第二部" data-year="2027" data-region="美国" data-genre="科幻， 冒险">
+          <a class="movie-card__poster" href="./movies/movie-0699.html">
+            <img src="./99.jpg" alt="冰冻星球 第二部">
+            <span class="movie-card__play">播放</span>
+          </a>
+          <div class="movie-card__body">
+            <div class="movie-card__meta"><span>美国</span><span>2027</span></div>
+            <h3><a href="./movies/movie-0699.html">冰冻星球 第二部</a></h3>
+            <p>上一代英雄迟暮，新的威胁从冰层下的远古海洋苏醒。</p>
+          </div>
+        </article>
+
+        <article class="movie-card movie-card--normal" data-title="在火山下" data-year="2027" data-region="意大利 / 法国" data-genre="剧情, 爱情, 灾难">
+          <a class="movie-card__poster" href="./movies/movie-1354.html">
+            <img src="./4.jpg" alt="在火山下">
+            <span class="movie-card__play">播放</span>
+          </a>
+          <div class="movie-card__body">
+            <div class="movie-card__meta"><span>意大利 / 法国</span><span>2027</span></div>
+            <h3><a href="./movies/movie-1354.html">在火山下</a></h3>
+            <p>一对火山学家夫妻在即将喷发的火山下，一边研究熔岩，一边挽救破裂的婚姻。</p>
+          </div>
+        </article>
+
+        <article class="movie-card movie-card--normal" data-title="天堂镇警局第三季" data-year="2027" data-region="美国" data-genre="动画， 喜剧， 犯罪">
+          <a class="movie-card__poster" href="./movies/movie-0684.html">
+            <img src="./84.jpg" alt="天堂镇警局第三季">
+            <span class="movie-card__play">播放</span>
+          </a>
+          <div class="movie-card__body">
+            <div class="movie-card__meta"><span>美国</span><span>2027</span></div>
+            <h3><a href="./movies/movie-0684.html">天堂镇警局第三季</a></h3>
+            <p>天堂镇迎来新市长，她决定解散警局，废柴警员们必须证明自己有用。</p>
+          </div>
+        </article>
+
+        <article class="movie-card movie-card--normal" data-title="宇宙战舰大和号 新的旅程" data-year="2027" data-region="日本" data-genre="科幻 / 冒险">
+          <a class="movie-card__poster" href="./movies/movie-0571.html">
+            <img src="./121.jpg" alt="宇宙战舰大和号 新的旅程">
+            <span class="movie-card__play">播放</span>
+          </a>
+          <div class="movie-card__body">
+            <div class="movie-card__meta"><span>日本</span><span>2027</span></div>
+            <h3><a href="./movies/movie-0571.html">宇宙战舰大和号 新的旅程</a></h3>
+            <p>大和号重启，这次的目的地是两万光年外的“回声星云”，那里藏着人类基因的终极秘密。</p>
+          </div>
+        </article>
+
+        <article class="movie-card movie-card--normal" data-title="我是特种兵之利刃出鞘" data-year="2027" data-region="中国大陆" data-genre="动作、军旅、剧情">
+          <a class="movie-card__poster" href="./movies/movie-1046.html">
+            <img src="./146.jpg" alt="我是特种兵之利刃出鞘">
+            <span class="movie-card__play">播放</span>
+          </a>
+          <div class="movie-card__body">
+            <div class="movie-card__meta"><span>中国大陆</span><span>2027</span></div>
+            <h3><a href="./movies/movie-1046.html">我是特种兵之利刃出鞘</a></h3>
+            <p>狼牙特战队在演习中遭遇神秘雇佣兵袭击，他们发现，对手的战术和军械均来自十年前一支被除名的传奇小队。</p>
+          </div>
+        </article>
+
+        <article class="movie-card movie-card--normal" data-title="无意背叛" data-year="2027" data-region="中国台湾" data-genre="剧情/爱情/家庭">
+          <a class="movie-card__poster" href="./movies/movie-1418.html">
+            <img src="./68.jpg" alt="无意背叛">
+            <span class="movie-card__play">播放</span>
+          </a>
+          <div class="movie-card__body">
+            <div class="movie-card__meta"><span>中国台湾</span><span>2027</span></div>
+            <h3><a href="./movies/movie-1418.html">无意背叛</a></h3>
+            <p>一场车祸后，妻子失去了十年记忆，醒来时发现自己正与一个陌生男人办理离婚手续。</p>
+          </div>
+        </article>
+
+        <article class="movie-card movie-card--normal" data-title="月黑风高" data-year="2027" data-region="中国台湾" data-genre="恐怖，惊悚，民俗">
+          <a class="movie-card__poster" href="./movies/movie-1831.html">
+            <img src="./31.jpg" alt="月黑风高">
+            <span class="movie-card__play">播放</span>
+          </a>
+          <div class="movie-card__body">
+            <div class="movie-card__meta"><span>中国台湾</span><span>2027</span></div>
+            <h3><a href="./movies/movie-1831.html">月黑风高</a></h3>
+            <p>每十五年月黑风高夜，村子必须献祭一名外乡人，这次轮到迷路的游客。</p>
+          </div>
+        </article>
+
+        <article class="movie-card movie-card--normal" data-title="父土" data-year="2027" data-region="中国大陆" data-genre="剧情， 历史， 家庭">
+          <a class="movie-card__poster" href="./movies/movie-0377.html">
+            <img src="./77.jpg" alt="父土">
+            <span class="movie-card__play">播放</span>
+          </a>
+          <div class="movie-card__body">
+            <div class="movie-card__meta"><span>中国大陆</span><span>2027</span></div>
+            <h3><a href="./movies/movie-0377.html">父土</a></h3>
+            <p>一个东北家庭三代人，面对工厂下岗、土地拆迁和外迁发展，争论到底哪里才是“回不去的故乡”。</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div>
+        <strong>亚洲经典电影</strong>
+        <p>收录亚洲经典电影相关页面，涵盖多地区经典影片、口碑电影和精选片单。</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="ranking.html">热播榜</a>
+        <a href="search.html">搜索</a>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/search-data.js"></script>
+  <script src="assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

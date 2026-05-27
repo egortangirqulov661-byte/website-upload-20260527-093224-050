@@ -1,0 +1,10 @@
+parsed_movies: 2000
+detail_pages: 2000
+category_pages: 10
+category_card_count: 2000
+all_html_files: 2014
+baidu_script_pages: 2014
+jpg_files_in_package: 0
+m3u8_sources_from_original_js: 20
+logo: 日韩经典电影
+generated_at: 2026-05-26T07:42:05.698289Z
